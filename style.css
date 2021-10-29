@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main-visual {
+  margin: 20px;
+  width: 90%;
+  height: 400px;
+  background-image: url(chapter7_exercise/img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.main-visual-text {
+  padding: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.blog {
+  padding-top: 20px;
+}
+
+.blog-item {
+  padding: 30px 0;
+  width: 840px;
+  border-bottom: 2px solid #d1d1d1;
+}
